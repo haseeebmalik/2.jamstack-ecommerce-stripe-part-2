@@ -18,6 +18,7 @@
   "dependencies": {
     "gatsby": "^3.13.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "stripe": "^8.176.0"
   }
 }
