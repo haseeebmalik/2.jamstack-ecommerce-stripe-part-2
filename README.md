@@ -56,4 +56,4 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 
 5. **In this repository the flow we follow is first the client send request to our server ,the server calls the stripe server and returns a client secret,then a request send 
 to the stripe server from the frontend with client secret ,then we make a webhook so that our server also know that the payment intent is successfull and we then do what
-ever we want.In webhook we give the the url of our netlify function,to get response .**
+ever we want.In webhook we give the the url of our netlify function,to get response .You may go to netlify functions in gui and see what the response is.**
