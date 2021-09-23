@@ -1,5 +1,6 @@
 import { CardCvcElement, CardElement, CardExpiryElement, CardNumberElement, useElements,useStripe } from "@stripe/react-stripe-js";
 import * as React from "react";
+import { graphql, StaticQuery, useStaticQuery } from "gatsby";
 import "./CheckoutForm.css";
 const CARD_ELEMENT_OPTIONS = {
   style: {
@@ -19,6 +20,8 @@ const CARD_ELEMENT_OPTIONS = {
   },
 };
 const CheckoutForm = () => {
+  
+  
     const stripe=useStripe()
     const elements=useElements()
   //   const stripePromise = loadStripe(
